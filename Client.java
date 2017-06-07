@@ -8,8 +8,8 @@ Socket s=new Socket("localhost",6555);
 DataOutputStream dout=new DataOutputStream(s.getOutputStream());
 dout.writeUTF("HELLO SERVER");
 dout.flush();
-dout.close();
-s.close();
+dout.close() ;
+s.close();//closing socket
 }
 catch(Exception e)
 {
