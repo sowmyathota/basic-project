@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 public class Client{
-public static void main(String args[])
+public static void main(String args[])  //main method
 {
 try{
 Socket s=new Socket("localhost",6555);
